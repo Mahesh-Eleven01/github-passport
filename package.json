@@ -1,0 +1,26 @@
+{
+  "name": "github",
+  "version": "0.0.1",
+  "description": "Github Passport authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Passport",
+    "Github",
+    "Nodejs"
+  ],
+  "author": "Meegada Mahesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15",
+    "nodemailer": "^4.7.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0"
+  }
+}
